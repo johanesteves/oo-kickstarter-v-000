@@ -9,7 +9,7 @@ attr_accessor :title, :backers
 
   def add_backer(backer)
     self.backers << backer
-    
+
   end
-  
+
 end
