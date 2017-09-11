@@ -9,6 +9,7 @@ attr_accessor :title, :backers
 
   def add_backer(backer)
     self.backers << backer
+    backer.backed_projects << self unless backer.backed_projects.include?(backer)
   end
 
 end
