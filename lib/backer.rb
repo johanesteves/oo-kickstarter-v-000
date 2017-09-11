@@ -12,5 +12,5 @@ attr_accessor :name, :backed_projects
     project.backer << self
   end
 
-  
+
 end
