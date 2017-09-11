@@ -9,7 +9,7 @@ attr_accessor :name, :backed_projects
 
   def back_project(project)
     self.backed_projects <<  project
-    project.backer << self
+    project.backers << self
   end
 
 
